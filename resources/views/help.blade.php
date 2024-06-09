@@ -7,23 +7,13 @@
 
 
         {{-- <span class=" col-7 border border-secondary border-3 rounded mt-3 mb-3 pt-1 pb-1 "> --}}
-            <div class=" col-7 p-0 mt-1  d-flex flex-wrap fs-4">
-
-                <span class=" col border border-secondary border-3 rounded mt-1 mb-1  bg-teal">
-
-                <div class=" col d-flex" align="justify">
-                    <p class="text-break text-uppercase fs-3 fw-bold text-danger " >Внимание!</p>
-                </div>
-
-                <div class=" mb-1 col-11 ">
-                    <p class="text-break text-uppercase fs-5 fw-bold text-danger" align="justify">Перед использованием сайта проверьте, выключен ли ваш VPN. В противном случае сайт на запомнит, что вы добавили в лист ожидания и корзину. :)</p>
-                </div>
-
-                </span>
+            <div class=" col-7 p-0 mt-5  d-flex flex-wrap fs-4">
 
                 <div class=" col-12 d-flex align-items-center flex-column ">
                     <h4 for="ice-cream-choice">Поиск по описанию</h4>
                     <input class="w-75" list="ice-cream-flavors1 " id="ice-cream-choice" name="ice-cream-choice" />
+
+
                 </div>
 
                 <div class=" col-6 d-flex align-items-center flex-column">
@@ -56,7 +46,6 @@
 
                         <button type="button" class="btn btn-primary w-75 fs-4">Поиск</button>
                     </div>
-
 
 
             </div>

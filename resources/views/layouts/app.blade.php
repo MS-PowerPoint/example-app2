@@ -18,11 +18,11 @@
     padding: 0px;
     margin: 0px auto;
     font-family: 'Sedgwick Ave Display', cursive;
-    color: rgb(186, 186, 186);
-    text-shadow: black 1px 0 3px,
-    black -1px 0 3px,
-    black 0px 1px 3px,
-    black 0px -1px 3px;
+    color: rgb(143, 143, 143);
+    text-shadow: black 1px 0 2px,
+    black -1px 0 2px,
+    black 0px 1px 2px,
+    black 0px -1px 2px;
 }
 a{
     text-decoration: none;
@@ -295,7 +295,7 @@ footer {
 
 
 <div align="center">
-    <img class="logo" src=" {{asset('storage/img/png/logo-no-background.png')}} " alt="logo">
+    <img class="logo m-4" src=" {{asset('storage/img/png/logo-no-background.png')}} " alt="logo">
 </div>
 <div class="collapsible-menu" align="center">
     <input type="checkbox" id="menu">
@@ -433,25 +433,6 @@ const btnUp = {
 }
 
 btnUp.addEventListener();
-
-// код для слайдера на главной странице
-$('.carousel .carousel-item').each(function () {
-var minPerSlide = 3;
-var next = $(this).next();
-if (!next.length) {
-next = $(this).siblings(':first');
-}
-next.children(':first-child').clone().appendTo($(this));
-
-for (var i = 0; i < minPerSlide; i++) {
-    next=next.next();
-    if (!next.length) {
-        next=$(this).siblings(':first');
-    }
-     next.children(':first-child').clone().appendTo($(this)); }
-
-    });
-
 
 
 </script>

@@ -13,6 +13,15 @@ use App\Http\Controllers\NavigationController;
 |
 */
 Route::get('/',[NavigationController::class, 'catalog']);
+
+Route::get('/WaitingList',[NavigationController::class, 'waitinglist']);
+
+Route::get('/Basket',[NavigationController::class, 'basket']);
+
+Route::get('/Help',[NavigationController::class, 'help']);
+
+
+
 // Route::get('/', function () {
 //     return view('index.index');
 // });
